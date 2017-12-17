@@ -8,7 +8,8 @@ ENV LANG=IT_it@UTF-8
 RUN apt-get -y update && apt-get -y install \
 	python-dev \
 	python-pip \
-	git
+	git \
+	gettext
  
 
 COPY Dockerfile /Dockerfile
