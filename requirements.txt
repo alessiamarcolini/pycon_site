@@ -32,7 +32,8 @@ django-mptt==0.6.1
 django-page-cms==1.5.3
 -e git://github.com/dcramer/django-paypal.git@4d58224317e9c0f4c9c2ee88bd1a6b8de8891800#egg=django_paypal-master
 django-pingback==0.3
-django-polymorphic==1.0.2
+# polymorphic and filer are tied, see https://github.com/django-polymorphic/django-polymorphic/issues/189#issuecomment-167856552
+django-polymorphic>=0.7,<0.8
 django-recaptcha-works==0.3.4
 django-rosetta==0.7.4
 django-sekizai==0.10.0
