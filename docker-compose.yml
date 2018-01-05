@@ -1,0 +1,6 @@
+pyconit:
+  build: .
+  command: tail -f /etc/hosts
+  volumes:
+  - .:/code
+
